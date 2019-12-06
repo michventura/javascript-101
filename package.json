@@ -1,0 +1,19 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript 101",
+  "author": "Michel Ventura <michcodes@hotmail.com>",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "clear": "rm -rf .cache/ dist/",
+    "format": "prettier --write \"src/**/*.{js}\"",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.7.5",
+    "parcel-bundler": "^1.12.4"
+  }
+}
